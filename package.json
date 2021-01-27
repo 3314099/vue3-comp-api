@@ -45,7 +45,14 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "semi": "off",
+      "arrow-parens": "off",
+      "comma-dangle": "off",
+      "require-jsdoc": "off",
+      "new-cap": "off",
+      "dot-notation": "off"
+    }
   },
   "browserslist": [
     "> 1%",
