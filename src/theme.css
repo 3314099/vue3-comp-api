@@ -142,6 +142,11 @@ h3 {
     padding-top: 5rem;
 }
 
+.px-1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 .form-control {
     position: relative;
     margin-bottom: 0.5rem;
@@ -161,6 +166,10 @@ h3 {
     border-radius: 3px;
     font-size: 1rem;
     resize: none;
+}
+
+.form-control small {
+    color: #e53935;
 }
 
 .form-control small {
@@ -520,4 +529,9 @@ h3 {
 
 .question-title {
     font-weight: bold;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
 }
